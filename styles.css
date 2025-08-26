@@ -1,0 +1,46 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #1a5f23; /* Dark green */
+    color: white;
+}
+
+/* Hero Section */
+.hero-pattern {
+    background: linear-gradient(rgba(26, 95, 35, 0.9), rgba(26, 95, 35, 0.9)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><rect width="20" height="20" fill="%232d8a3a" opacity="0.1"/></svg>');
+}
+
+/* Menu Cards */
+.menu-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Button Styles */
+button {
+    background-color: #2d8a3a; /* Light green */
+    color: white;
+    border-radius: 9999px; /* Fully rounded */
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1a5f23; /* Darker green on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjustments for mobile view */
+    header nav {
+        display: none; /* Hide nav on mobile */
+    }
+}
