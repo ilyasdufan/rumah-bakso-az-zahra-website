@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumah Bakso Az - Zahra - Bakso Terenak di Samarinda</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍜</text></svg>" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .luxury-green {
+            background: linear-gradient(135deg, #1a5f23 0%, #2d8a3a 50%, #1a5f23 100%);
+        }
+        .menu-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .hero-pattern {
+            background: linear-gradient(rgba(26, 95, 35, 0.9), rgba(26, 95, 35, 0.9)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="极 0 20 20"><rect width="20" height="20" fill="%232d8a3a" opacity="0.1"/></svg>');
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="luxury-green text-white shadow-lg">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-3">
+                        <i class="fas fa-utensils text-green-700 text-xl"></i>
+                    </div>
+                    <h1 class="text-2xl font-bold">Rumah Bakso Az - Zahra</h1>
+                </div>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#home" class="hover:text-green-200 transition-colors">Beranda</a>
+                    <a href="#menu" class="hover:text-green-200 transition-colors">Menu</a>
+                    <a href="#about" class="hover:text-green-200 transition-colors">Tentang</a>
+                    <a href="#contact" class="hover:text-green-200 transition-colors">Kontak</a>
+                </nav>
+                <button class="md:hidden text-white">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-pattern text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl md:text-6xl font-bold mb-6">Rumah Bakso Az - Zahra</h2>
+                <p class="text-xl md:text-2xl mb-8">Rasa Autentik, Kenikmatan Tiada Tara di Samarinda</p>
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-8">
+                    <p class="text-lg mb-4">📍 Alamat Kami:</p>
+                    <p class="text-2xl font-semibold">Jl. Bengkuring No. 123, Samarinda, Kalimantan Timur</p>
+                </div>
+                <button class="bg-white text-green-700 px-8 py-4 rounded-full font-semibold text-lg hover:bg-green-50 transition-colors shadow-lg">
+                    <i class="fas fa-phone-alt mr-2"></i>
+                    Pesan Sekarang
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">Menu Spesial Kami</h2>
+                <p class="text-gray-600 text-lg">Pilihan bakso terbaik dengan cita rasa khas</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Menu Item 1 -->
+                <div class="menu-card bg-white rounded-2xl shadow-xl p-6 transition-all duration-300">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-drumstick-bite text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-800 mb-2">Bakso Urat Spesial</h3>
+                    <p class="text-gray-600 mb-4">Bakso urat dengan tekstur kenyal dan kuah kaldu sapi asli</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-green-700">Rp 25.000</span>
+                        <button class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition-colors">
+                            Pesan
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Menu Item 2 -->
+                <div class="menu-card bg-white rounded-2xl shadow-xl p-6 transition-all duration-300">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-bowl-food text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-800 mb-2">Bakso Beranak</h3>
+                    <p class="text-gray-600 mb-4">Bakso besar berisi bakso kecil dengan kuah spesial</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-green-700">Rp 30.000</span>
+                        <button class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition-colors">
+                            Pesan
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Menu Item 3 -->
+                <div class="menu-card bg-white rounded-2xl shadow-xl p-6 transition-all duration-300">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-fire text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-800 mb-2">Bakso Pedas</h3>
+                    <p class="text-gray-600 mb-4">Bakso dengan sambal spesial level pedas pilihan</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-green-700">Rp 28.000</span>
+                        <button class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition-colors">
+                            Pesan
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Menu Item 4 -->
+                <div class="menu-card bg-white rounded-2xl shadow-xl p-6 transition-all duration-300">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-shrimp text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-800 mb-2">Bakso Seafood</h3>
+                    <p class="text-gray-600 mb-4">Bakso dengan campuran seafood segar pilihan</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-green-700">Rp 35.000</span>
+                        <button class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition-colors">
+                            Pesan
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Menu Item 5 -->
+                <div class="menu-card bg-white rounded-2xl shadow-xl p-6 transition-all duration-300">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-cheese text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-800 mb-2">Bakso Keju</h3>
+                    <p class="text-gray-600 mb-4">Bakso dengan isian keju mozzarella yang lumer</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-green-700">Rp 32.000</span>
+                        <button class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition-colors">
+                            Pesan
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Menu Item 6 -->
+                <div class="menu-card bg-white rounded-2xl shadow-xl p-6 transition-all duration-300">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-crown text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-800 mb-2">Paket Komplit</h3>
+                    <p class="text-gray-600 mb-4">Paket lengkap bakso dengan nasi dan minuman</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-green-700">Rp 45.000</span>
+                        <button class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition-colors">
+                            Pesan
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-green-50">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-6">Tentang Rumah Bakso Az - Zahra</h2>
+                    <p class="text-gray-700 text-lg mb-6">
+                        Sejak tahun 2010, Rumah Bakso Az - Zahra telah menjadi pilihan utama masyarakat Samarinda 
+                        untuk menikmati bakso dengan cita rasa autentik dan kualitas terbaik. 
+                    </p>
+                    <p class="text-gray-700 text-lg mb-8">
+                        Kami menggunakan bahan-bahan pilihan segar dan resep turun-temurun yang telah 
+                        teruji kelezatannya. Setiap porsi bakso kami diolah dengan penuh cinta dan 
+                        perhatian terhadap detail.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center">
+                            <div class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-2">
+                                <i class="fas fa-award text-white text-xl"></i>
+                            </div>
+                            <p class="font-semibold text-green-800">Bahan Premium</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-2">
+                                <i class="fas fa-heart text-white text-xl"></i>
+                            </div>
+                            <p class="font-semibold text-green-800">Dibuat dengan Cinta</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-green-600 rounded-2xl p-8 text-white">
+                        <h3 class="text-2xl font-bold mb-4">Jam Operasional</h3>
+                        <div class="space-y-2">
+                            <div class="flex justify-between">
+                                <span>Senin - Jumat</span>
+                                <span>09:00 - 21:00</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Sabtu - Minggu</span>
+                                <span>08:00 - 22:00</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Hari Libur</span>
+                                <span>08:00 - 23:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">Hubungi Kami</h2>
+                <p class="text-gray-600 text-lg">Silakan hubungi kami untuk pemesanan atau informasi lebih lanjut</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-map-marker-alt text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-800 mb-2">Alamat</h3>
+                    <p class="text-gray-600">Jl. Bengkuring No. 123<br>Samarinda, Kalimantan Timur</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-phone text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-800 mb-2">Telepon</h3>
+                    <p class="text-gray-600">+62 812-3456-7890<br>+62 821-0987-6543</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-envelope text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-green-800 mb-2">Email</h3>
+                    <p class="text-gray-600">info@baksozahra.com<br>order@baksozahra.com</p>
+                </div>
+            </div>
+
+            <div class="mt-16 bg-green-50 rounded-2xl p-8">
+                <h3 class="text-2xl font-bold text-green-800 mb-6 text-center">Lokasi Kami</h3>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.674146058049!2d117.148474!3d-0.456999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df67f0a1a8a5a5f%3A0x5045e3295b5b5b5b!2sBengkuring%2C%20Samarinda%20Kota%2C%20Samarinda%20City%2C%20East%20Kalimantan!5e0!3m2!1sen!2sid!4v1234567890123!5m2!1sen!2sid" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="w-full h-64 md:h-96">
+                    </iframe>
+                </div>
+                <p class="text-center text-gray-600 mt-4">
+                    <i class="fas fa-map-marker-alt text-green-600 mr-2"></i>
+                    Rumah Bakso Az - Zahra, Jl. Bengkuring No. 123, Samarinda
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="luxury-green text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Rumah Bakso Az - Zahra</h4>
+                    <p class="text-green-200">Rasa autentik, kenikmatan tiada tara sejak 2010</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Menu</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-green-200 hover:text-white">Bakso Urat</a></li>
+                        <li><a href="#" class="text-green-200 hover:text-white">Bakso Beranak</a></li>
+                        <li><a href="#" class="text-green-200 hover:text-white">Bakso Pedas</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Kontak</h4>
+                    <ul class="space-y-2">
+                        <li class="text-green-200">Jl. Bengkuring No. 123, Samarinda</li>
+                        <li class="text-green-200">+62 812-3456-7890</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Follow Kami</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-green-700 rounded-full flex items-center justify-center hover:bg-green-600">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-green-700 rounded-full flex items-center justify-center hover:bg-green-600">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-green-700 rounded-full flex items-center justify-center hover:bg-green-600">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-green-700 mt-8 pt-8 text-center">
+                <p class="text-green-200">© 2024 Rumah Bakso Az - Zahra. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
